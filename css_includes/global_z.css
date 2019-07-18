@@ -26,12 +26,12 @@
     cursor: default;
 }
 
-#CompUnnatural:before {
+#1:before {
   content: "Gar nicht angemessen";
   padding-right: 1em;
 }
 
-#CompNatural:after {
+#6:after {
   content: " Angemessen";
   padding-left: 1em;
 }
