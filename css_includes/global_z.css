@@ -25,3 +25,18 @@
     color: white;
     cursor: default;
 }
+
+#Empty:before {
+  content: "Gar nicht angemessen";
+  padding-right: 1em;
+}
+
+#Empty2:after {
+  content: " Angemessen";
+  padding-left: 1em;
+}
+
+p {
+  max-width: 50em;
+  margin: auto;
+}
