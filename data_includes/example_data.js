@@ -100,7 +100,9 @@ var items = [
                       // Play audio file
                       {audio: x.Sound_filename, type: "audio/wav", waitFor: true, newRT: true},
 		
-			    {this: "answers", showKeys: "bottom", waitFor: true}
+			    {this: "answers", showKeys: "bottom", 
+			     tempMessage: "Press Space",
+			     waitFor: true}
                     ];
                   }
                 }
