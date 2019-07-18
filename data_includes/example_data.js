@@ -16,7 +16,7 @@ var defaults = [
     },
     "DynamicQuestion",
 	{
-        clickableAnswers: false    // Prevents participants from choosing an answer by clicking on it
+        clickableAnswers: true    // Prevents participants from choosing an answer by clicking on it
     },
 ];
 
