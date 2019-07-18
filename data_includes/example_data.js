@@ -85,8 +85,8 @@ var items = [
                  NotNatural: ["3", "3"],
                  Average: ["4", "4"],
                  Natural: ["5", "5"],
-                 CompNatural: ["6", "6"]
-		 Empty2: ["", ""],
+                 CompNatural: ["6", "6"],
+		 Empty2: ["", ""]
                     },
              enabled: false,                             // The user won't validate the trial by clicking/pressing the key.
              sequence: function(x){
