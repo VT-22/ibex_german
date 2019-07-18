@@ -79,12 +79,14 @@ var items = [
               // Generate each picture and return them as answers
               answers: {
                 // The labels are defined in global_z.css
+		 Empty: ["", ""],
                  CompUnnatural: ["1", "1"],
                  Unnatural: ["2", "2"],
                  NotNatural: ["3", "3"],
                  Average: ["4", "4"],
                  Natural: ["5", "5"],
                  CompNatural: ["6", "6"]
+		 Empty2: ["", ""],
                     },
              enabled: false,                             // The user won't validate the trial by clicking/pressing the key.
              sequence: function(x){
@@ -100,9 +102,7 @@ var items = [
                       // Play audio file
                       {audio: x.Sound_filename, type: "audio/wav", waitFor: true, newRT: true},
 		
-			    {this: "answers", showKeys: "bottom", 
-			     tempMessage: "Press Space",
-			     waitFor: true}
+			    {this: "answers", showKeys: "bottom", waitFor: true}
                     ];
                   }
                 }
