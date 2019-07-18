@@ -102,7 +102,7 @@ var items = [
                       // Play audio file
                       {audio: x.Sound_filename, type: "audio/wav", waitFor: true, newRT: true},
 //			    {this: "answers", showKeys: "bottom", waitFor: true}		
-			    "Wie angemessen wird die Situation durch den Satz beschreibt?"
+			    "Wie angemessen wird die Situation durch den Satz beschrieben?",
 			    {this: "answers", waitFor: true}
                     ];
                   }
