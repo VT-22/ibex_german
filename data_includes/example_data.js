@@ -80,12 +80,12 @@ var items = [
               answers: {
                 // The labels are defined in global_z.css
 //		 Empty: ["", ""],
-                 CompUnnatural: ["1", "1"],
-                 Unnatural: ["2", "2"],
-                 NotNatural: ["3", "3"],
-                 Average: ["4", "4"],
-                 Natural: ["5", "5"],
-                 CompNatural: ["6", "6"],
+                 1: ["1", "1"],
+                 2: ["2", "2"],
+                 3: ["3", "3"],
+                 4: ["4", "4"],
+                 5: ["5", "5"],
+                 6: ["6", "6"],
 //		 Empty2: ["", ""]
                     },
              enabled: false,                             // The user won't validate the trial by clicking/pressing the key.
