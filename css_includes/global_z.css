@@ -25,21 +25,3 @@
     color: white;
     cursor: default;
 }
-
-#CompUnnatural:before {
-  content: "Gar nicht angemessen";
-  padding-right: 1em;
-    
-  text-align: left;
-}
-
-#CompNatural:after {
-  content: "Angemessen";
-  padding-left: 1em;
-  text-align: left;
-}
-
-p {
-  max-width: 80em;
-  margin: auto;
-}
