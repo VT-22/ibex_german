@@ -27,16 +27,16 @@
 }
 
 #CompUnnatural:before {
-  content: "Completely unnatural";
+  content: "Gar nicht angemessen";
   padding-right: 1em;
 }
 
 #CompNatural:after {
-  content: " Completely natural";
+  content: "Angemessen";
   padding-left: 1em;
 }
 
 p {
-  max-width: 90em;
+  max-width: 80em;
   margin: auto;
 }
