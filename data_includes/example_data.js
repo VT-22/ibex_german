@@ -99,7 +99,9 @@ var items = [
                       function(t){ t.enabled = true; },
                       // Play audio file
                       {audio: x.Sound_filename, type: "audio/wav", waitFor: true, newRT: true},
-					   {this: "answers", showKeys: "bottom", waitFor: true}
+		
+			    {this: "answers", waitFor: true}
+//			    {this: "answers", showKeys: "bottom", waitFor: true}
                     ];
                   }
                 }
