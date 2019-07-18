@@ -28,12 +28,10 @@
 
 #Empty:before {
   content: "Gar nicht angemessen";
-  padding-right: 1em;
 }
 
 #Empty2:after {
   content: " Angemessen";
-  padding-left: 1em;
 }
 
 p {
